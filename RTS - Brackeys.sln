@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3C2BD1A7-F8EE-13C4-4ED0-5CD547D42D24}") = "RTS - Brackeys", "Assembly-CSharp.csproj", "{32A781B9-D88D-0573-2C12-C02F4F3E6F43}"
+EndProject
+Project("{3C2BD1A7-F8EE-13C4-4ED0-5CD547D42D24}") = "RTS - Brackeys", "Assembly-CSharp-Editor.csproj", "{0DA99CBD-E54B-2007-840A-6EA451A37F6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A781B9-D88D-0573-2C12-C02F4F3E6F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A781B9-D88D-0573-2C12-C02F4F3E6F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A781B9-D88D-0573-2C12-C02F4F3E6F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A781B9-D88D-0573-2C12-C02F4F3E6F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA99CBD-E54B-2007-840A-6EA451A37F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA99CBD-E54B-2007-840A-6EA451A37F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA99CBD-E54B-2007-840A-6EA451A37F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA99CBD-E54B-2007-840A-6EA451A37F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
