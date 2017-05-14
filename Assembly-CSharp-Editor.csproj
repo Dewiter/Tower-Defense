@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0DA99CBD-E54B-2007-840A-6EA451A37F6D}</ProjectGuid>
+    <ProjectGuid>{5B0839AC-493A-789D-F07F-9FFD49BD7BE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -149,34 +149,34 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="ProBuilderCore-Unity5">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderMeshOps-Unity5">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="KDTree">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Stl">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+ </Reference>
+ <Reference Include="Triangle">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderEditor-Unity5">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ProBuilderCore-Unity5">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
- </Reference>
- <Reference Include="pb_Stl">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
- </Reference>
- <Reference Include="KDTree">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
- </Reference>
- <Reference Include="ProBuilderEditor-Unity5">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
- </Reference>
- <Reference Include="ProBuilderMeshOps-Unity5">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
- </Reference>
- <Reference Include="Triangle">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{32A781B9-D88D-0573-2C12-C02F4F3E6F43}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

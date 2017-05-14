@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32A781B9-D88D-0573-2C12-C02F4F3E6F43}</ProjectGuid>
+    <ProjectGuid>{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,7 +54,6 @@
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
      <Compile Include="Assets\script\BuildManager.cs" />
      <Compile Include="Assets\script\Bullet.cs" />
-     <Compile Include="Assets\script\CameraController.cs" />
      <Compile Include="Assets\script\Enemy.cs" />
      <Compile Include="Assets\script\EnemyMouvement.cs" />
      <Compile Include="Assets\script\GameManager.cs" />
@@ -113,19 +112,19 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
- </Reference>
- <Reference Include="pb_Stl">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
- </Reference>
- <Reference Include="KDTree">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps-Unity5">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="KDTree">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Stl">
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
  </Reference>
  <Reference Include="Triangle">
- <HintPath>/Users/rolevy/work/Perso/RTS - Brackeys/Assets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
+ <HintPath>/Users/rolevy/work/Perso/TowerDefense/Assets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
