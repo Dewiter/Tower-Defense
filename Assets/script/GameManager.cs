@@ -13,11 +13,6 @@ public class GameManager : MonoBehaviour {
 			EndGame();
 			return ;	
 		}
-		if (waves.waveIndex == waves.waves.Length)
-		{
-			WinLevel();
-			return ;
-		}
 	}
 
 	void EndGame ()
@@ -26,7 +21,7 @@ public class GameManager : MonoBehaviour {
 		gameEnd = true;
 	}
 
-	void WinLevel()
+	public void WinLevel()
 	{
 		WinUI.SetActive(true);
 		gameEnd = true;

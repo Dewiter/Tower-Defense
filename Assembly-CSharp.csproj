@@ -57,6 +57,7 @@
      <Compile Include="Assets\script\Enemy.cs" />
      <Compile Include="Assets\script\EnemyMouvement.cs" />
      <Compile Include="Assets\script\GameManager.cs" />
+     <Compile Include="Assets\script\LevelSelector.cs" />
      <Compile Include="Assets\script\LiveUI.cs" />
      <Compile Include="Assets\script\MainMenu.cs" />
      <Compile Include="Assets\script\MoneyUI.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\script\NodeUI.cs" />
      <Compile Include="Assets\script\Pause.cs" />
      <Compile Include="Assets\script\PlayerStats.cs" />
+     <Compile Include="Assets\script\RoundsSurvived.cs" />
      <Compile Include="Assets\script\SceneFader.cs" />
      <Compile Include="Assets\script\Shop.cs" />
      <Compile Include="Assets\script\Turret.cs" />

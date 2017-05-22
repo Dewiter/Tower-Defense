@@ -3,21 +3,16 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class WinLevel : MonoBehaviour {
-
-	public Text roundsText;
 	public SceneFader sceneFader;
+	public string nextlevel = "level2";
+	public int unlock		= 2;
 	public string scene = "scene/MainMenu";
 
-	void OnEnable ()
+	public void Continue ()
 	{
-		roundsText.text = PlayerStats.Rounds.ToString();
+		PlayerPrefs.SetInt("levelReached", unlock);
+		sceneFader.FadeTo(nextlevel);
 	}
-
-	public void Retry ()
-	{
-		sceneFader.FadeTo(SceneManager.GetActiveScene().name);
-	}
-
 	public void Menu ()
 	{
 		sceneFader.FadeTo(scene);
